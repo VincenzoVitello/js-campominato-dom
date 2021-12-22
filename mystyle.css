@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("campo-minato-esplosivo-legends-of-runeterra-league-of-legends-lol-sfondo-2800x2100_28.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mt{
+    margin: 10px 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.field{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+}
+.square{
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square_onclick{ 
+    background-color: #3efdfe;
+}
+.square_easy{
+    width: calc(100%/10);
+}
+.square_peasy{
+    width: calc(100%/9);
+}
+.square_lemon_squeeze{
+    width: calc(100%/7);
+}
+.bomb{
+    background-color: #e54d37;
+}
